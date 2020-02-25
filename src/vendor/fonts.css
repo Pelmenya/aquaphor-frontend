@@ -1,0 +1,7 @@
+@import url(../vendor/fonts/ProximaNova/stylesheet.css);
+
+@font-face {
+  font-family: Icomoon;
+  font-style:  normal;
+  src: url("./fonts/icomoon.woff") format("woff"), url("./fonts/icomoon.ttf") format("ttf") ;
+}

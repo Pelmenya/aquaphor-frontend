@@ -1,0 +1,11 @@
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+
+
+
+*{
+  border: 1px solid red;
+  box-sizing: border-box;
+
+}
