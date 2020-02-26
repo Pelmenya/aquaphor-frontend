@@ -4,7 +4,13 @@
 @import url(./__nav-item/header__nav-item.css);
 @import url(./__nav-item/_page/header__nav-item_page.css);
 @import url(./__nav-item/_menu/header__nav-item_menu.css);
+@import url(./__menu/header__menu.css);
+@import url(./__menu/_product/header__menu_product.css);
+@import url(./__menu/_services/header__menu_services.css);
+@import url(./__nav-item/_menu/header__nav-item_menu_product.css);
+@import url(./__nav-item/_menu/header__nav-item_menu_services.css);
 @import url(./__item-icon/header__item-icon.css);
+@import url(./__item-icons/header__item-icons.css);
 @import url(./__item-icon/_basket/header__item-icon_basket.css);
 @import url(./__item-icon/_search/header__item-icon_search.css);
 
@@ -18,4 +24,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
