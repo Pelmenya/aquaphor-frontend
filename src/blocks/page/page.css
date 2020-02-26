@@ -1,12 +1,13 @@
 .page {
-  max-width: 1440px;
+  margin: 0 auto;
+  max-width: 1152px;
   min-width: 320px;
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 0 auto;
   color: #fff;
-  width: 100%;
-  font-family: Proxima Nova Regular;
+  font-family: Proxima Nova Rg;
 }

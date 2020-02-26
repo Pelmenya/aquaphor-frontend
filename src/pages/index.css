@@ -1,11 +1,15 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 
+body{
+  margin: 0 auto;
+}
 
-
-*{
+/*{
   border: 1px solid red;
   box-sizing: border-box;
 
-}
+}*/

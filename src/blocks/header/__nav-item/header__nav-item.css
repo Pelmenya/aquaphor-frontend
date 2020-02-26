@@ -1,0 +1,18 @@
+.header__nav-item {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 56px;
+  color: #1d2b36;
+  font-size: 16px;
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  cursor: url('../../../images/lapka.png'), pointer;
+
+}
+
+.header__nav-item:hover {
+  color: #164cb5;
+}

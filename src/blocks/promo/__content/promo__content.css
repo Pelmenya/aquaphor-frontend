@@ -1,5 +1,6 @@
 .promo__content {
-  width: 1152px;
+  width: 100%;
+  max-width: 1152px;
   height: inherit;
   color: #fff;
   font-size: 12px;

@@ -1,8 +1,19 @@
+@import url(./__wrap/header__wrap.css);
 @import url(./__logo/header__logo.css);
 @import url(./__nav/header__nav.css);
+@import url(./__nav-item/header__nav-item.css);
+@import url(./__nav-item/_page/header__nav-item_page.css);
+@import url(./__basket/header__basket.css);
+@import url(./__search/header__search.css);
+
 
 
 .header {
-
-
+  width: 100%;
+  max-width: 1152px;
+  margin: inherit;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
