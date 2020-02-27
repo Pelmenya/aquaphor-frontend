@@ -17,8 +17,6 @@
 @import url(./__item-icon/_basket/header__item-icon_basket.css);
 @import url(./__item-icon/_search/header__item-icon_search.css);
 
-
-
 .header {
   width: 100%;
   max-width: 1152px;
@@ -27,4 +25,5 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #fff;
 }

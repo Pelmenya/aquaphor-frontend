@@ -1,0 +1,17 @@
+@import url(./__solutions/intro__solutions.css);
+@import url(./__wrap/intro__wrap.css);
+@import url(./__swiper/intro__swiper.css);
+@import url(./__service/intro__service.css);
+@import url(./__service-bg-pic/intro__service-bg-pic.css);
+@import url(./__service-title/intro__service-title.css);
+@import url(./__service-link/intro__service-link.css);
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:transparent;
+  width: 100%;
+  height: 524px;
+}
+

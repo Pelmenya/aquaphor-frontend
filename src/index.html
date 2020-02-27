@@ -113,7 +113,7 @@
               </g>
             </svg>
           <nav class="header__nav">
-            <div class="header__nav-item header__nav-item_page">Главная &#10004;</div>
+            <div class="header__nav-item header__nav-item_page">Главная</div>
             <div class="header__nav-item header__nav-item_menu header__nav-item_menu_product">Продукция
               <div class="header__menu header__menu_product">
                 <div class="header__menu-col">
@@ -155,9 +155,29 @@
             <div class="header__item-icon header__item-icon_search"></div>
             <div class="header__item-icon header__item-icon_basket"></div>
           </div>
-          </div>
       </div>
     </header>
+    <main class="main block-background">
+      <section class ="intro">
+        <div class="intro__solutions">
+          <div class="intro__swiper">
+
+          </div>
+          <div class="intro__wrap">
+            <a href="#" class="intro__service">
+              <img class="intro__service-bg-pic" src="<%=require('./images/columnslider.jpg')%>" alt="Анализ воды">
+            </a>
+            <a href="#" class="intro__service">
+              <img class="intro__service-bg-pic" src="<%=require('./images/columnslider.jpg')%>" alt="Подбор оборудования">
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+
+
+    </footer>
   </div>
 
   <script src="<%=htmlWebpackPlugin.files.chunks.index.entry%>"></script>
