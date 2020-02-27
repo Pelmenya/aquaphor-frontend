@@ -1,6 +1,6 @@
 .intro__swiper {
   height: 100%;
-  width: 888px; /* поправить*/
-  background-color: red;
+  width: 888px;
   margin-right: 24px;
+  background-color: grey;
 }

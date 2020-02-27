@@ -1,8 +1,14 @@
+import '../node_modules/swiper/css/swiper.css';
 import './pages/index.css';
+import Swiper from 'swiper';
 
-const swiper = new Swiper('.swiper-container', {
-  pagination: {
-    el: '.swiper-pagination',
-    dynamicBullets: true,
-  },
-});
+function main() {
+  const introSwiper = new Swiper('.intro__swiper', {
+    pagination: {
+      el: '.intro__swiper-pagination',
+      dynamicBullets: true,
+    },
+  });
+}
+
+main();
