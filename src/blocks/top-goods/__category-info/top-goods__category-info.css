@@ -1,3 +1,4 @@
 .top-goods__category-info {
-    
+  display: flex;
+  flex-direction: column;
 }

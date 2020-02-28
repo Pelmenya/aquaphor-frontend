@@ -6,6 +6,8 @@
 @import url(./__category-link/top-goods__category-link.css);
 @import url(./__category-links/top-goods__category-links.css);
 @import url(./__category-pic/top-goods__category-pic.css);
+@import url(./__category-select/top-goods__category-select.css);
+
 
 .top-goods {
   display: flex;
@@ -14,5 +16,5 @@
   width: 100%;
   background-color: #fff;
   color: #556575;
-  border: 1px solid #556575;
+  border: 1px solid #e0e0e0;
 }

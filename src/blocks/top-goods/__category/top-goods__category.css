@@ -1,3 +1,4 @@
 .top-goods__category {
-    
+ width: 320px;
+ display: flex;
 }
