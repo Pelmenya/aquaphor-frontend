@@ -1,9 +1,9 @@
 .intro__swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: red;
-
   /* Center slide text vertically */
+  position: relative;
+  height: 100%;
+  width: 100%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
