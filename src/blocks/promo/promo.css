@@ -3,6 +3,7 @@
 @import url(./__item-wrap/promo__item-wrap.css);
 @import url(./__item-icon/promo__item-icon.css);
 @import url(./__item/promo__item.css);
+@import url(./__title/promo__title.css);
 
 .promo {
   background: #164cb5;
