@@ -1,6 +1,5 @@
 .header__nav-item {
   padding-left: 40px;
-  padding-right: 40px;
   padding-top: 8px;
   padding-bottom: 8px;
 
@@ -23,8 +22,4 @@
 
 .header__nav-item:first-of-type {
   padding-left: 220px;
-}
-
-.header__nav-item:last-of-type {
-  padding-right: 0px;
 }
