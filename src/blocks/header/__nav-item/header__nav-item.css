@@ -1,15 +1,28 @@
 .header__nav-item {
-  padding-left: 16px;
-  padding-right: 16px;
-  height: 56px;
-  color: #1d2b36;
-  font-size: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
 
-  cursor: url('../../../images/lapka.png'), pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: -0.1px;
+  color: var(--dark);
 }
 
 .header__nav-item:hover {
-  color: #164cb5;
+  color: var(--cornflower-blue);
+}
+
+.header__nav-item:first-of-type {
+  padding-left: 0px;
+}
+
+.header__nav-item:last-of-type {
+  padding-right: 0px;
 }
